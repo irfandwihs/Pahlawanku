@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_home"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.papermotion.pahlawanku.HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bb"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:onClick="Main"
+        android:layout_marginBottom="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+   <Button
+        android:id="@+id/btnClose"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:onClick="Keluar"
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
